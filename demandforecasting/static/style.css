@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #00ffcc;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.2);
+    width: 500px; /* Set a fixed width for the form to make it bigger */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #cccccc;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 15px; /* Increase the padding for larger input boxes */
+    margin-bottom: 20px; /* Increase the margin to add more space between inputs */
+    font-size: 1.2em; /* Increase the font size for better visibility */
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #00ffcc;
+    color: #000000;
+    padding: 15px 20px; /* Increase padding to make the button bigger */
+    font-size: 1.2em; /* Increase font size of the button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00bfa5;
+}
+
+.prediction {
+    margin-top: 20px;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.1);
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666666;
+}
